@@ -1,0 +1,18 @@
+#header{
+    background: #2bcbba;
+    padding: 20px;
+    font-size: 18px;
+}
+.body{
+    color: #fff;
+    background-size: 400px 200px;
+    padding: 10px;
+    /*background-image: url(web.png);
+    background-size: 400px 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;*/
+}
+.body{
+    background: tomato  url("web.png") no-repeat center center 
+}

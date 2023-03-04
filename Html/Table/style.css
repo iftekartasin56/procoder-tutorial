@@ -1,0 +1,4 @@
+table{width:100%}
+table th{background: rgb(154, 102, 12);color:#fff;padding:5px;}
+table td{text-a;ign:center;border:2px solid brown}
+table tr:nth-child(2n+1){background:#ddd}

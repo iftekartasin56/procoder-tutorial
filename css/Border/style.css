@@ -1,0 +1,9 @@
+h1{
+    border: 1px solid #000;
+    text-align: center;
+    border-radius: 10px;
+    color: #E11920;
+    font-family: 'poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
