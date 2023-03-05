@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What JavaScript Can Do</title>
+</head>
+<style>
+    .wc-btn{
+        background: brown;
+        color: #fff;
+        font-size: 16px;
+        border: 1px solid brown;
+        padding: 10px 15px;
+        margin-right: 20px;
+    }
+    .cl-btn{
+        background: #FFC300;
+        color: #000814;
+        border: 1px solid #FFC300;
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    img{
+        display: block;
+        height: 100px;
+    }
+    .bat-btn{
+        background: red;
+        color: #fff;
+        border: 1px solid red;
+        font-size: 16px;
+        padding: 10px 15px;
+        margin-right: 20px;
+    }
+    .sp-cl-1{
+        color: #000;
+        background-color: #FCA311;
+        border: 1px solid #FCA311;
+    }
+    .sp-cl-2{
+        color: #fff;
+        background-color: #14213D;
+        border: 1px solid #14213D;
+    }
+</style>
+<body>
+    <h1 id="title">Bangladesh</h1>
+    <button class="wc-btn" onclick="document.getElementById('title').innerHTML='Welcome to Bangladesh'">Welcome</button>
+    <button class="cl-btn" onclick="document.getElementById('title').style.color='red'">Color</button> <br>
+    <img id="battery" src="image/low.png" alt="">
+    <button class="bat-btn" onclick="document.getElementById('battery').src='image/low.png'">Low battery</button>
+    <button class="bat-btn sp-cl-1" onclick="document.getElementById('battery').src='image/stable.png'">stable battery</button>
+    <button class="bat-btn sp-cl-2" onclick="document.getElementById('battery').src='image/full.png'">full battery</button>
+
+
+    <script>
+
+    </script>
+</body>
+</html>
